@@ -18,7 +18,6 @@
     .rainbow {
         height: 200px;
         overflow: hidden;
-        margin-left: 600px;
     }
     /* 剪切一半end */
     /* 塌陷处理 给合并元素添加overflow:hidden; */
