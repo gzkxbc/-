@@ -11,6 +11,7 @@
     body {
         /* 这是转换为border盒模型 */
         box-sizing: border-box;
+        background-color: white;
     }
     /* 彩虹开始 */
     /* 剪切一半开始 */
@@ -18,7 +19,6 @@
     .rainbow {
         height: 200px;
         overflow: hidden;
-        margin-left: 600px;
     }
     /* 剪切一半end */
     /* 塌陷处理 给合并元素添加overflow:hidden; */
