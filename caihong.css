@@ -1,0 +1,123 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    img {
+        /* 这是响应式布局 */
+        max-width: 100%;
+    }
+    
+    body {
+        /* 这是转换为border盒模型 */
+        box-sizing: border-box;
+    }
+    /* 彩虹开始 */
+    /* 剪切一半开始 */
+    
+    .rainbow {
+        height: 200px;
+        overflow: hidden;
+        margin-left: 600px;
+    }
+    /* 剪切一半end */
+    /* 塌陷处理 给合并元素添加overflow:hidden; */
+    
+    .rainbow div {
+        overflow: hidden;
+    }
+    /* 塌陷处理end */
+    /* 第一个圆 */
+    
+    .rainbow>div {
+        /* border: 1px solid red; */
+        width: 400px;
+        height: 400px;
+        background-color: red;
+        border-radius: 50%;
+        /* 这个变成一个圆的代码 */
+    }
+    /* 第一个圆END */
+    /* 第2个圆 */
+    
+    .rainbow>div>div {
+        /* border: 1px solid red; */
+        height: 380px;
+        margin: 10px;
+        background: hsl(60, 80%, 50%);
+        border-radius: 50%;
+        /* 这个变成一个圆的代码 */
+    }
+    /* 第2个圆 end*/
+    /* 第3个圆 */
+    
+    .rainbow>div>div>div {
+        /* border: 1px solid red; */
+        height: 360px;
+        margin: 10px;
+        background: hsl(120, 80%, 50%);
+        border-radius: 50%;
+    }
+    /* 第3个圆end */
+    /* 第4个圆 */
+    
+    .rainbow>div>div>div>div {
+        /* border: 1px solid red; */
+        height: 340px;
+        margin: 10px;
+        background: hsl(180, 80%, 50%);
+        border-radius: 50%;
+    }
+    /* 第4个圆end */
+    /* 第5个圆 */
+    
+    .rainbow>div>div>div>div>div {
+        /* border: 1px solid red; */
+        height: 320px;
+        margin: 10px;
+        background: hsl(240, 80%, 50%);
+        border-radius: 50%;
+    }
+    /* 第5个圆end */
+    /* 第6个圆 */
+    
+    .rainbow>div>div>div>div>div>div {
+        /* border: 1px solid red; */
+        background: hsl(120, 80%, 50%);
+        height: 300px;
+        margin: 10px;
+        background: hsl(300, 80%, 50%);
+        border-radius: 50%;
+    }
+    /* 第6个圆end */
+    /* 第7个圆 */
+    
+    .rainbow>div>div>div>div>div>div>div {
+        /* border: 1px solid red; */
+        height: 280px;
+        margin: 10px;
+        background: hsl(330, 80%, 50%);
+        border-radius: 50%;
+    }
+    /* 第7个圆end */
+    /* 第8个圆 */
+    
+    .rainbow>div>div>div>div>div>div>div>div {
+        /* border: 1px solid red; */
+        height: 260px;
+        margin: 10px;
+        background: hsl(330, 80%, 100%);
+        border-radius: 50%;
+    }
+    /* 第8个圆end */
+    /* 第9个圆 */
+    
+    .rainbow>div>div>div>div>div>div>div>div>div {
+        /* border: 1px solid red; */
+        background: hsl(120, 80%, 50%);
+        height: 240px;
+        margin: 10px;
+        border-radius: 50%;
+    }
+    /* 第9个圆end */
+    /* 彩虹END */
